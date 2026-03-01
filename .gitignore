@@ -1,0 +1,51 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# SQLite DB (nếu có)
+*.db
+
+# Coverage / Test
+.coverage
+htmlcov/
+
+# Environment variables
+
+# Build
+dist/
+build/
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# =========================
+# PostgreSQL (local dump)
+# =========================
+*.sql
+*.dump
+
+# =========================
+# Uvicorn / runtime
+# =========================
+*.pid
